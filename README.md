@@ -1,6 +1,6 @@
-# 🌙 ISG ROTA
+# 🌙 İSG ROTA
 
-DSP (Destek Sağlık Personeli) belgesine hazırlananlar için topluluk destekli, açık kaynaklı sınav hazırlık uygulaması.
+DSP (Diğer Sağlık Personeli) belgesine hazırlananlar için topluluk destekli, açık kaynaklı sınav hazırlık uygulaması.
 
 ---
 
