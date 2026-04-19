@@ -1,4 +1,4 @@
-package com.example.dsp
+package com.gecelimani.isgrota
 
 import com.tom_roush.pdfbox.pdmodel.PDDocument
 import com.tom_roush.pdfbox.text.PDFTextStripper

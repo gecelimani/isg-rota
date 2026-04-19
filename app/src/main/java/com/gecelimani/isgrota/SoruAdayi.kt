@@ -1,4 +1,4 @@
-package com.example.dsp
+package com.gecelimani.isgrota
 
 data class SoruAdayi(
     val numara: String,                     // "13."

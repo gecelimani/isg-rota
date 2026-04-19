@@ -1,4 +1,4 @@
-package com.example.dsp
+package com.gecelimani.isgrota
 
 import android.Manifest
 import android.content.pm.PackageManager

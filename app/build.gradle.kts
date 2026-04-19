@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.dsp"
+    namespace = "com.gecelimani.isgrota"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.dsp"
+        applicationId = "com.gecelimani.isgrota"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

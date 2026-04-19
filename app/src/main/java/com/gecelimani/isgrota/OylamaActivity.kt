@@ -1,4 +1,4 @@
-package com.example.dsp
+package com.gecelimani.isgrota
 
 import android.os.Bundle
 import android.util.Log

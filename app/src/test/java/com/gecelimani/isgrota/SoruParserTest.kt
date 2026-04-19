@@ -1,4 +1,4 @@
-package com.example.dsp
+package com.gecelimani.isgrota
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
