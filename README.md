@@ -46,7 +46,6 @@ API_KEY=senin_api_keyin
 ## 🤝 Katkı Sağla
 
 - Soru ekleyerek topluluğa destek ol
-- Hata bildirimi için: rasitbostan@tuta.io
 - Pull request açabilirsin
 
 ---
@@ -63,5 +62,3 @@ Kaynak kodu kullanabilir, değiştirebilir ve dağıtabilirsin ancak:
 ---
 
 ## 🌙 gecelimani.com
-
-[rasitbostan@tuta.io](mailto:rasitbostan@tuta.io)
