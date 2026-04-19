@@ -1,0 +1,100 @@
+<resources>
+    <!-- Ana Tema (Gece) -->
+    <style name="Theme.DSP" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Renkler -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">@color/primary_dark</item>
+        <item name="colorOnPrimaryContainer">#FFFFFF</item>
+
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        <item name="colorSurfaceVariant">#222222</item>
+        <item name="colorOnSurfaceVariant">#AAAAAA</item>
+        <item name="colorOutline">@color/accent</item>
+
+        <item name="android:textColorPrimary">@color/text_dark</item>
+        <item name="android:textColorSecondary">#AAAAAA</item>
+
+        <!-- ActionBar'ı tamamen kaldır -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Splash Screen -->
+        <item name="android:windowSplashScreenBackground">@color/background_dark</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/resim</item>
+
+        <!-- Durum Çubuğu -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <!-- Material3 Components Styling -->
+        <item name="materialAlertDialogTheme">@style/Theme.DSP.AlertDialog</item>
+        <item name="textInputStyle">@style/Widget.DSP.TextInputLayout.OutlinedBox</item>
+        <item name="materialButtonStyle">@style/Widget.DSP.Button.Outlined</item>
+    </style>
+
+    <!-- Custom View Styles -->
+    <style name="Widget.DSP.TextInputLayout.OutlinedBox" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/accent</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="hintTextColor">@color/accent</item>
+        <item name="android:textColorHint">@color/accent</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <style name="Widget.DSP.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">64dp</item>
+        <item name="cornerRadius">32dp</item>
+        <item name="strokeColor">@color/accent</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.12</item>
+    </style>
+
+    <style name="Theme.DSP.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="materialAlertDialogTitleTextStyle">@style/TextStyle.DSP.Dialog.Title</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/TextStyle.DSP.Dialog.Body</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.DSP.Button.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.DSP.Button.Dialog</item>
+    </style>
+
+    <style name="TextStyle.DSP.Dialog.Title" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyle.DSP.Dialog.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+
+    <style name="Widget.DSP.Button.Dialog" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">32dp</item>
+    </style>
+</resources>

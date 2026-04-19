@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Arka Plan (Lacivert Daire) -->
+    <path
+        android:fillColor="#1B3B4A"
+        android:pathData="M12,54a42,42 0 1,0 84,0a42,42 0 1,0 -84,0z" />
+    
+    <!-- Dış Halka (Pusula Çerçevesi) -->
+    <path
+        android:fillColor="#4DB6AC"
+        android:pathData="M54,18a36,36 0 1,0 36,36a36,36 0 1,0 -36,36z" />
+    
+    <!-- İç Daire -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,26a28,28 0 1,0 28,28a28,28 0 1,0 -28,28z" />
+    
+    <!-- Kuzey İğnesi (Turuncu) -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M54,30 L50,54 L54,54 L58,54 L54,30z" />
+    
+    <!-- Güney İğnesi (Gri) -->
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M54,78 L50,54 L54,54 L58,54 L54,78z" />
+    
+    <!-- Merkez Noktası (Path ile Daire) -->
+    <path
+        android:fillColor="#1B3B4A"
+        android:pathData="M54,51a3,3 0 1,0 0,6a3,3 0 1,0 0,-6z" />
+        
+    <!-- Sağlık Haçı (Kuzey İğnesinin Ucunda) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M51,34 L57,34 L57,38 L61,38 L61,44 L57,44 L57,48 L51,48 L51,44 L47,44 L47,38 L51,38z" />
+        
+</vector>

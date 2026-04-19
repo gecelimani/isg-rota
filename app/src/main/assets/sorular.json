@@ -1,0 +1,218 @@
+[
+  {
+    "soruMetni": "Kurşun zehirlenmesini ilk tanımlayan bilim adamı kimdir?",
+    "secenekler": [
+      "Heredot",
+      "Hipokrat",
+      "Ramazzini",
+      "Paracelsus",
+      "Galen"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Tarih"
+  },
+  {
+    "soruMetni": "İşçi Sağlığının Babası olarak bilinen kişi kimdir?",
+    "secenekler": [
+      "Paracelsus",
+      "Agricola",
+      "Ramazzini",
+      "Percival Pott",
+      "Tissot"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Tarih"
+  },
+  {
+    "soruMetni": "Türkiye'de işyerlerinde hekim bulundurulmasına yönelik ilk düzenleme hangisidir?",
+    "secenekler": [
+      "Borçlar Kanunu",
+      "Dilaver Paşa Nizamnamesi",
+      "İş Kanunu",
+      "Maaddin Nizamnamesi",
+      "Umumi Hıfzıssıhha Kanunu"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "ISO 45001 yönetim sisteminin kurgusu hangi döngüden oluşur?",
+    "secenekler": [
+      "Kontrol et-Planla-Önlem al-Uygula",
+      "Önlem al-Planla-Kontrol et-Uygula",
+      "Önlem al-Kontrol et-Planla-Uygula",
+      "Planla-Uygula-Önlem al-Kontrol et",
+      "Planla-Uygula-Kontrol et-Önlem al"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Teknik"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi DSP'nin görevlerinden biri değildir?",
+    "secenekler": [
+      "Sağlık eğitimi vermek",
+      "Tanı koymak",
+      "İlk yardım organize etmek",
+      "Kayıt tutmak",
+      "Hekime yardımcı olmak"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Görevler"
+  },
+  {
+    "soruMetni": "Cumhuriyet'in ilanından sonra ilk yasal düzenleme olan, işçi sağliği ve iş güvenliği konusundaki ilk olumlu düzenlemeleri içeren yasa aşağdakilerden hangisidir?",
+    "secenekler": [
+      "Umumi Hifzıssihha YasasI",
+      "Hafta Tatili Yasasi",
+      "Belediyeler Yasası",
+      "3008 sayılı Iş Yasası",
+      "5690 sayılı Yasa"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Cumhuriyet'in ilanından Sonra ilk yasal düzenleme olan, işçi sağlığ ve iş güvenliği konusundaki ilk olumlu düzenlemneleri içeren yasa aşağIdakilerden hangisidir?",
+    "secenekler": [
+      "Umumi Hifzıssıhha Yasası",
+      "Hafta Tatili Yasasi",
+      "Belediyeler Yasası",
+      "3008 sayılı İş Yasası",
+      "5690 sayıli Yasa"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Osmanlı döneminde iş hukuku açısindan batılı sayılabilecek ilk düzenleme aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "Hipokrat",
+      "Ramazzini",
+      "Agricola",
+      "Paracelsus",
+      "Juvenal"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Türkiye Cumhuriyeti' nde, iş yerlerinde hekim bulundurulmasına yönelik yapılan ilk düzenleme aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "Borçlar Kanunu",
+      "Dilaver Paşa Nizamnamesi",
+      "İş Kanunu",
+      "Maaddin Nizamnamesi",
+      "Umumi Hifzıssıhha Kanunu"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Türkiye Cumhuriyeti' nde, iş yerlerinde hekim bulundurulmasına yönelik yapılan ilk düzenleme aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "Borçlar Kanunu",
+      "Dilaver Paşa Nizamnamesi",
+      "İş Kanunu",
+      "Maaddin Nizamnamesi",
+      "Umumi Hifzıssıhha Kanunu"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "De Morbis Artificum Diatriba adlı kitabında kazaları önlemek için iş yerlerinde koruyucu güvenlik önlemlerinin alınmasını öneren ve hasta muayenesi sürecinde ne iş yapıyorsun? sorusunun sorulmasinı öneren işçi sağlığnın kurucusu aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "Paracelsus",
+      "Ramazzini",
+      "Galen",
+      "Hipokrat",
+      "Agricola"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "5510. sayılı Sosyal Sigortal ar ve Genel Sağlık Sigortası Kanunu'na göre; işyeriņin faaliyette bulunduğu adresten baskabif itdeki adrese nakledilmesi hâlinde, işyerinin nakledildiği tarihi takip eden kaç gün içinde işyeri bildirgesinin Sosyal Güvenlik Kurumu Başkanlığına verilmesi gerekir?",
+    "secenekler": [
+      "letişim, iş birliği ve kontrol seviyelerinin zayıf olması",
+      "Teknik konular üzerine aşırı odaklanılması",
+      ") Ramak kala olayların üzerinde durulması",
+      "Çalişanlar arasinda yüksek oran da hastaliklar ve işe",
+      "Güvenlik ihlallerinin sayısının artması --- SÜTUN AYRACI ---"
+    ],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Yapı işlerinde iş Sağlığ, ve Güvenliği Yönetmeliği'ne göre, aşağıdakilerden Kangis yuksekte çalışmalarda çalışma yerleri için alinacak toplu koruma tedbirlerinden biri değildir?",
+    "secenekler": [
+      "Güvenli korkuluklar",
+      "Güvenlik ağları veya hava yastıkları",
+      "Paraşüt tipi kemer sistemleni",
+      "Düşmeyi önleyici platformlar",
+      "Bariyerler ve kapaklar"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "I. Acil çıkış yolları ve kapıları, Güvenlik ve Sağlık İşaretleri Yönetmeliği’ne uygun şekilde işaretlenmeli ve işaretler kalıcı olmalıdır.\nII. Aydınlatılması gereken acil çıkış yolları ve kapılarında, elektrik kesilmesi hâlinde, yeterli aydınlatmayı sağlayacak ayrı bir enerji kaynağına bağlı acil aydınlatma sistemi bulunmalıdır.\nIII. Acil çıkış kapıları, yerden tasarruf sağlamak için raylı veya döner kapılar olarak tasarlanamaz.\nIV. Acil çıkış yolları ve kapılarının önünde, gerekli eşyalar bulundurulmalıdır. Acil çıkış yolları ve kapıları ile ilgili\nolarak yukarıdakilerden hangileri doğrudur?",
+    "secenekler": [
+      "Yalnız IV",
+      "I ve III",
+      "I, II ve IIII",
+      "I, III ve IIV",
+      "II, III ve IIV"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Bir fabrikada çalışan 52 yaşındaki işçi,\nkronik bel ağrısı nedeniyle iş yeri hekimine başvurur. Hekim, işçinin mevcut işinde\nçalışmaya devam etmesinin sağlık durumunu kötüleştirebileceğini tespit eder. İşçi\nmaddi kaygılar nedeniyle rapor almak istemediğini belirtirken işveren ise iş gücü\nkaybını önlemek amacıyla işçinin çalışmaya devam etmesini istemektedir. İş yeri\nhekiminin, hem işçinin sağlığını koruyarak işçiye zarar vermemesi hem de işvereni objektif bir şekilde bilgilendirmesi gerekmektedir.\nBu etik durum ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "secenekler": [
+      "Hekim, işçinin sağlığını korumak için en uygun çalışma koşullarını sağlamak adına işverene tavsiyelerde bulunmalıdır.",
+      "İş yeri hekimi, işçinin karar verme özgürlüğüne saygı göstermelidir.",
+      "İş yeri hekimi, zarar vermeme ilkesi doğrultusunda hareket etmelidir.",
+      "İşverenin iş gücü kaybını önleme talebi, işçinin sağlık durumundan daha öncelikli olmalıdır.",
+      "İş yeri hekimi, tüm çalışanlar arasında adil bir yaklaşım sağlamak için adalet ilkesini göz önünde bulundurmalıdır."
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "1930 yılında yürürlüğe konulan ve iş yerlerine sağlık hizmetlerinin götürülmesini i sağlayan kanun aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "Borçlar Kanunu",
+      "506 sayılı SSK Kanunu",
+      "Hafta Tatili Kanunu",
+      "Umumi Hifzissihha Kanunu",
+      "4857 İş Kanunu"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "I 931 sayılı iş Kanunu.\nII 1475 sayılı Iş Kanunu\nIII 3008 sayılı Iş Kanunu.\nIV 4857 sayılı iş Kanunu\nYukarıdaki iş kanunlarının yasalaştığı yıllara göre\nkronolojik sıralaması hangisidir?",
+    "secenekler": [
+      "|, ||-|| –IV",
+      "II|, I| -|, IV",
+      "I|, IV– |",
+      "|| –|, ||-V",
+      "IV, || -||, I"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "De Morbis Artificum Diatriba adlı kitabinda\nkazaları önlemek için iş yerlerinde koruyucu\ngüvenlik önlemlerinin alınmasını öneren ve hasta\nmuayenesi sürecinde ne iş yapıyorsun?\nsorusunun sorulmasını öneren işçi sağlığnın\nkurucusu aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "Paracelsus",
+      "Ramazzini",
+      "Galen",
+      "Hipokrat",
+      "Agricola"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Genel"
+  }
+]

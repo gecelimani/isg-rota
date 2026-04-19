@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/accent" />
+    <size android:width="72dp" android:height="72dp" />
+    <!-- İkonun arkasındaki halkayı çok şeffaf yaparak premium bir his veriyoruz -->
+    <gradient
+        android:type="radial"
+        android:gradientRadius="40dp"
+        android:startColor="#1AE9C46A"
+        android:endColor="#00E9C46A" />
+</shape>

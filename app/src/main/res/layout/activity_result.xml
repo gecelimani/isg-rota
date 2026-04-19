@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:padding="24dp">
+
+    <!-- Ana İçerik Taşıyıcı -->
+    <LinearLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/buttonContainer"
+        app:layout_constraintVertical_bias="0.4">
+
+
+
+        <TextView
+            android:id="@+id/tvAltMesaj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sınav Tamamlandı"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_marginBottom="48dp" />
+
+        <!-- Başarı Oranı Çemberi -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="56dp">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/cpBasari"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                app:indicatorSize="220dp"
+                app:trackThickness="12dp"
+                app:trackCornerRadius="6dp"
+                app:indicatorColor="@color/accent"
+                app:trackColor="?attr/colorSurfaceVariant"
+                android:progress="75" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/tvBasari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="75"
+                    android:textSize="64sp"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="?android:attr/textColorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PUAN"
+                    android:textSize="12sp"
+                    android:letterSpacing="0.3"
+                    android:alpha="0.5"
+                    android:textColor="?android:attr/textColorPrimary" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Alt İstatistikler (Glassmorphism Style) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/stats_bg_glass"
+            android:padding="20dp">
+
+            <!-- Doğru -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/tvDogru"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="38"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#10B981" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DOĞRU"
+                    android:textSize="10sp"
+                    android:letterSpacing="0.1"
+                    android:alpha="0.6"
+                    android:textColor="?android:attr/textColorPrimary" />
+            </LinearLayout>
+
+            <View android:layout_width="1dp" android:layout_height="30dp" android:background="?attr/colorSurfaceVariant" />
+
+            <!-- Yanlış -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/tvYanlis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#EF4444" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YANLIŞ"
+                    android:textSize="10sp"
+                    android:letterSpacing="0.1"
+                    android:alpha="0.6"
+                    android:textColor="?android:attr/textColorPrimary" />
+            </LinearLayout>
+
+            <View android:layout_width="1dp" android:layout_height="30dp" android:background="?attr/colorSurfaceVariant" />
+
+            <!-- Toplam -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/tvToplam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="?android:attr/textColorPrimary" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOPLAM"
+                    android:textSize="10sp"
+                    android:letterSpacing="0.1"
+                    android:alpha="0.6"
+                    android:textColor="?android:attr/textColorPrimary" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Butonlar Bölümü -->
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnAnaSayfa"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:text="ANA SAYFA"
+            style="@style/Widget.DSP.Button.Outlined"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnTekrarDene"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:text="TEKRAR DENE"
+            style="@style/Widget.DSP.Button.Outlined"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

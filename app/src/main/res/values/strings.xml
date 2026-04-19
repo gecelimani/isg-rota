@@ -1,0 +1,46 @@
+<resources>
+    <!-- Genel -->
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="connection_error">Bağlantı hatası</string>
+    <string name="server_response_error">Sunucu yanıtı hatalı</string>
+    <string name="parse_error">Veri ayrıştırma hatası</string>
+    <string name="camera_feature_soon">Kamera özelliği çok yakında eklenecek!</string>
+    <string name="app_name">İSG ROTA</string>
+
+    <!-- MainActivity -->
+    <string name="no_questions_found">Soru bulunamadı!</string>
+    <string name="correct_toast">Doğru! ✅</string>
+    <string name="wrong_toast">Yanlış! ❌ Doğru cevap: %1$s</string>
+    <string name="question_format">Soru %1$d: %2$s</string>
+    <string name="progress_format">Soru %1$d / %2$d</string>
+    <string name="finish_exam_title">Yolculuğu Tamamla</string>
+    <string name="finish_exam_message">Harika ilerledin! Sınavı burada sonlandırıp sonuçlarını görmek istiyor musun?</string>
+    <string name="exit_exam_title">Rotadan Ayrıl</string>
+    <string name="exit_exam_message">Henüz hedefe varmadın. Sınavdan çıkmak istediğine emin misin?</string>
+
+    <!-- ResultActivity -->
+    <string name="results_title">Sonuçlar</string>
+    <string name="percentage_format">%%%d</string>
+
+    <!-- OylamaActivity -->
+    <string name="no_pending_questions">Onay bekleyen soru kalmadı.</string>
+    <string name="no_more_questions">Gösterilecek soru kalmadı.</string>
+    <string name="no_questions_to_vote">Oy verilecek soru kalmadı.</string>
+    <string name="option_format">%1$s) %2$s</string>
+    <string name="correct_answer_label">Doğru Cevap: %1$s</string>
+    <string name="vote_stats">✅ %1$d  |  ❌ %2$d</string>
+
+    <!-- SoruEkleActivity -->
+    <string name="text_parsed_check_before_send">Metin çözümlendi, kontrol edip gönderebilirsiniz.</string>
+    <string name="fill_all_fields">Lütfen tüm alanları doldurun</string>
+    <string name="select_correct_answer">Lütfen doğru cevabı seçin</string>
+
+    <!-- SoruSecActivity -->
+    <string name="empty_text_error">Metin boş, lütfen tekrar deneyin.</string>
+    <string name="parsing_questions">Sorular ayrıştırılıyor…</string>
+    <string name="no_questions_found_in_text">Hiç soru bulunamadı. Lütfen metni kontrol edip tekrar deneyin.</string>
+    <string name="questions_found_count">%1$d soru bulundu. Eklemek istediğinizi seçin.</string>
+    <string name="correct_answer_not_detected">Doğru cevap algılanamadı. Lütfen manuel olarak seçin.</string>
+    <string name="parse_error_message">Metin işlenirken hata: %1$s</string>
+</resources>

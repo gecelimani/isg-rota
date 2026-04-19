@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:fitsSystemWindows="true"
+    android:padding="20dp">
+
+    <!-- Üst Kontroller ve Raporlama -->
+    <LinearLayout
+        android:id="@+id/headerControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvIlerleme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soru 1 / 50"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/accent"
+                android:letterSpacing="0.15"
+                android:textAllCaps="true" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progressSoru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:trackThickness="4dp"
+                app:trackCornerRadius="2dp"
+                app:trackColor="?attr/colorSurfaceVariant"
+                app:indicatorColor="@color/accent" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btnRaporEt"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_close"
+            android:tint="#FF5252" />
+    </LinearLayout>
+
+    <!-- Soru ve Seçenekler Alanı -->
+    <ScrollView
+        android:id="@+id/scrollSoru"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_constraintTop_toBottomOf="@id/headerControls"
+        app:layout_constraintBottom_toTopOf="@id/layoutButtons">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/soruMetni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soru metni buraya gelecek..."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="?android:attr/textColorPrimary"
+                android:lineSpacingMultiplier="1.3"
+                android:layout_marginBottom="40dp"
+                android:alpha="0.9" />
+
+            <RadioGroup
+                android:id="@+id/secenekGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/secenek1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:padding="20dp"
+                    android:background="@drawable/option_bg_selector"
+                    android:button="@null"
+                    android:textColor="@color/option_text_selector"
+                    android:textSize="15sp"
+                    android:letterSpacing="0.01" />
+
+                <RadioButton
+                    android:id="@+id/secenek2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:padding="20dp"
+                    android:background="@drawable/option_bg_selector"
+                    android:button="@null"
+                    android:textColor="@color/option_text_selector"
+                    android:textSize="15sp"
+                    android:letterSpacing="0.01" />
+
+                <RadioButton
+                    android:id="@+id/secenek3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:padding="20dp"
+                    android:background="@drawable/option_bg_selector"
+                    android:button="@null"
+                    android:textColor="@color/option_text_selector"
+                    android:textSize="15sp"
+                    android:letterSpacing="0.01" />
+
+                <RadioButton
+                    android:id="@+id/secenek4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:padding="20dp"
+                    android:background="@drawable/option_bg_selector"
+                    android:button="@null"
+                    android:textColor="@color/option_text_selector"
+                    android:textSize="15sp"
+                    android:letterSpacing="0.01" />
+
+                <RadioButton
+                    android:id="@+id/secenek5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:background="@drawable/option_bg_selector"
+                    android:button="@null"
+                    android:textColor="@color/option_text_selector"
+                    android:textSize="15sp"
+                    android:letterSpacing="0.01" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Navigasyon Butonları -->
+    <LinearLayout
+        android:id="@+id/layoutButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/bitirButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="SINAVI BİTİR"
+            style="@style/Widget.DSP.Button.Outlined" />
+
+        <Button
+            android:id="@+id/sonrakiButton"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1.2"
+            android:layout_marginStart="8dp"
+            android:text="SONRAKİ SORU"
+            style="@style/Widget.DSP.Button.Outlined"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

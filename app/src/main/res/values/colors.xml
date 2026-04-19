@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ana Kurumsal Renkler -->
+    <color name="primary">#0B3B60</color>
+    <color name="primary_dark">#07273F</color>
+    <color name="accent">#E9C46A</color>
+
+    <!-- Açık Tema -->
+    <color name="background_light">#F8F9FA</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="text_light">#212529</color>
+    <color name="text_secondary_light">#6C757D</color>
+
+    <!-- Koyu Tema -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="text_dark">#F8F9FA</color>
+
+    <!-- Buton Arka Planları -->
+    <color name="button_secondary_bg">@color/surface_light</color>
+</resources>
