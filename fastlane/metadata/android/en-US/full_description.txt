@@ -1,0 +1,10 @@
+Community-driven, open-source exam preparation app for DSP (Diger Saglik Personeli) certificate in Turkey.
+
+Features:
+* Practice exams and question pool
+* Community added and voted questions
+* Add questions via PDF or camera
+* Auto update with offline cache support
+* Fully anonymous, zero personal data collected
+* Dark/Light theme support
+* Daily study reminder

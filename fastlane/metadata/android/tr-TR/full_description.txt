@@ -1,0 +1,10 @@
+DSP (Diğer Sağlık Personeli) belgesine hazırlananlar için topluluk destekli, açık kaynaklı sınav hazırlık uygulaması.
+
+Özellikler:
+* Deneme sınavı ve soru havuzu
+* Topluluk tarafından eklenen ve oylanan sorular
+* PDF ve kamera ile soru ekleme
+* Otomatik soru güncelleme (internet yoksa cache çalışır)
+* Tamamen anonim, hiçbir kişisel veri toplanmaz
+* Karanlık/Aydınlık tema desteği
+* Günlük çalışma hatırlatıcısı
