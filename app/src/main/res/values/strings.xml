@@ -12,7 +12,7 @@
     <string name="no_questions_found">Soru bulunamadı!</string>
     <string name="correct_toast">Doğru! ✅</string>
     <string name="wrong_toast">Yanlış! ❌ Doğru cevap: %1$s</string>
-    <string name="question_format">Soru %1$d: %2$s</string>
+    <string name="question_format">Soru %1$d:\n%2$s</string>
     <string name="progress_format">Soru %1$d / %2$d</string>
     <string name="finish_exam_title">Yolculuğu Tamamla</string>
     <string name="finish_exam_message">Harika ilerledin! Sınavı burada sonlandırıp sonuçlarını görmek istiyor musun?</string>
