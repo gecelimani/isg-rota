@@ -25,6 +25,15 @@ android {
         buildConfig = true
     }
 
+    signingConfigs {
+        create("release") {
+            storeFile = file("/home/rintaro/0130ndirilenler/isgrota.keystore")
+            storePassword = "isgrota2026"
+            keyAlias = "isgrota"
+            keyPassword = "isgrota2026"
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false

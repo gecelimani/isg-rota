@@ -48,7 +48,7 @@
     "kategori": "Teknik"
   },
   {
-    "soruMetni": "Aşağıdakilerden hangisi DSP'nin görevlerinden biri değildir?",
+    "soruMetni": "Aşağıdakilerinden hangisi DSP'nin görevlerinden biri değildir?",
     "secenekler": [
       "Sağlık eğitimi vermek",
       "Tanı koymak",
@@ -60,31 +60,19 @@
     "kategori": "Görevler"
   },
   {
-    "soruMetni": "Cumhuriyet'in ilanından sonra ilk yasal düzenleme olan, işçi sağliği ve iş güvenliği konusundaki ilk olumlu düzenlemeleri içeren yasa aşağdakilerden hangisidir?",
+    "soruMetni": "Cumhuriyet'in ilanından sonra ilk yasal düzenleme olan, işçi sağlığı ve iş güvenliği konusundaki ilk olumlu düzenlemeleri içeren yasa aşağıdakilerden hangisidir?",
     "secenekler": [
-      "Umumi Hifzıssihha YasasI",
-      "Hafta Tatili Yasasi",
+      "Umumi Hıfzıssıhha Yasası",
+      "Hafta Tatili Yasası",
       "Belediyeler Yasası",
-      "3008 sayılı Iş Yasası",
+      "3008 sayılı İş Yasası",
       "5690 sayılı Yasa"
     ],
     "dogruCevapIndeksi": 1,
-    "kategori": "Genel"
+    "kategori": "Mevzuat"
   },
   {
-    "soruMetni": "Cumhuriyet'in ilanından Sonra ilk yasal düzenleme olan, işçi sağlığ ve iş güvenliği konusundaki ilk olumlu düzenlemneleri içeren yasa aşağIdakilerden hangisidir?",
-    "secenekler": [
-      "Umumi Hifzıssıhha Yasası",
-      "Hafta Tatili Yasasi",
-      "Belediyeler Yasası",
-      "3008 sayılı İş Yasası",
-      "5690 sayıli Yasa"
-    ],
-    "dogruCevapIndeksi": 1,
-    "kategori": "Genel"
-  },
-  {
-    "soruMetni": "Osmanlı döneminde iş hukuku açısindan batılı sayılabilecek ilk düzenleme aşağıdakilerden hangisidir?",
+    "soruMetni": "Osmanlı döneminde iş hukuku açısından batılı sayılabilecek ilk düzenleme aşağıdakilerden hangisidir?",
     "secenekler": [
       "Hipokrat",
       "Ramazzini",
@@ -93,126 +81,1062 @@
       "Juvenal"
     ],
     "dogruCevapIndeksi": 3,
-    "kategori": "Genel"
+    "kategori": "Tarih"
   },
   {
-    "soruMetni": "Türkiye Cumhuriyeti' nde, iş yerlerinde hekim bulundurulmasına yönelik yapılan ilk düzenleme aşağıdakilerden hangisidir?",
+    "soruMetni": "1930 yılında yürürlüğe konulan ve iş yerlerine sağlık hizmetlerinin götürülmesini sağlayan kanun aşağıdakilerden hangisidir?",
     "secenekler": [
       "Borçlar Kanunu",
-      "Dilaver Paşa Nizamnamesi",
-      "İş Kanunu",
-      "Maaddin Nizamnamesi",
-      "Umumi Hifzıssıhha Kanunu"
+      "506 sayılı SSK Kanunu",
+      "Hafta Tatili Kanunu",
+      "Umumi Hıfzıssıhha Kanunu",
+      "4857 İş Kanunu"
     ],
-    "dogruCevapIndeksi": 4,
-    "kategori": "Genel"
+    "dogruCevapIndeksi": 3,
+    "kategori": "Mevzuat"
   },
   {
-    "soruMetni": "Türkiye Cumhuriyeti' nde, iş yerlerinde hekim bulundurulmasına yönelik yapılan ilk düzenleme aşağıdakilerden hangisidir?",
+    "soruMetni": "5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu'na göre; işyerinin faaliyette bulunduğu adresten başka bir adrese nakledilmesi hâlinde, işyerinin nakledildiği tarihi takip eden kaç gün içinde işyeri bildirgesinin Sosyal Güvenlik Kurumuna verilmesi gerekir?",
     "secenekler": [
-      "Borçlar Kanunu",
-      "Dilaver Paşa Nizamnamesi",
-      "İş Kanunu",
-      "Maaddin Nizamnamesi",
-      "Umumi Hifzıssıhha Kanunu"
+      "3",
+      "5",
+      "7",
+      "10",
+      "15"
     ],
-    "dogruCevapIndeksi": 4,
-    "kategori": "Genel"
+    "dogruCevapIndeksi": 3,
+    "kategori": "Mevzuat"
   },
   {
-    "soruMetni": "De Morbis Artificum Diatriba adlı kitabında kazaları önlemek için iş yerlerinde koruyucu güvenlik önlemlerinin alınmasını öneren ve hasta muayenesi sürecinde ne iş yapıyorsun? sorusunun sorulmasinı öneren işçi sağlığnın kurucusu aşağıdakilerden hangisidir?",
+    "soruMetni": "Yapı işlerinde İş Sağlığı ve Güvenliği Yönetmeliği'ne göre, aşağıdakilerden hangisi yüksekte çalışmalarda çalışma yerleri için alınacak toplu koruma tedbirlerinden biri değildir?",
     "secenekler": [
-      "Paracelsus",
-      "Ramazzini",
-      "Galen",
-      "Hipokrat",
-      "Agricola"
+      "Güvenli korkuluklar",
+      "Güvenlik ağları veya hava yastıkları",
+      "Paraşüt tipi kemer sistemleri",
+      "Düşmeyi önleyici platformlar",
+      "Bariyerler ve kapaklar"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Teknik"
+  },
+  {
+    "soruMetni": "Ulusal İş Sağlığı ve Güvenliği Konseyi Yönetmeliği'ne göre, Konseyin çalışma esaslarıyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      "Konsey iki yılda bir toplanır, ancak üyelerin üçte biri talepte bulunursa her yıl toplanabilir.",
+      "Toplantı yeter sayısı temsilcilerin salt çoğunluğudur.",
+      "Karar yeter sayısı, toplantıya katılanların üçte birinden az olamaz.",
+      "Çalışma grubu üyeleri Konsey toplantılarına katılamazlar.",
+      "Toplantı gündemi üyelere en az iki hafta önceden gönderilir."
     ],
     "dogruCevapIndeksi": 1,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Türk hukuk sisteminde aşağıdakilerden hangisi hukukun yardımcı kaynaklarındandır?",
+    "secenekler": [
+      "Kanunlar",
+      "Cumhurbaşkanlığı kararnameleri",
+      "Bilimsel görüşler",
+      "Yönetmelikler",
+      "Uluslararası andlaşmalar"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "4857 sayılı İş Kanunu'na göre işçiye evlenmesi hâlinde kaç gün mazeret izni verilir?",
+    "secenekler": [
+      "1",
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi olumlu güvenlik kültürünün özelliklerinden biridir?",
+    "secenekler": [
+      "İletişim, iş birliği ve kontrol seviyelerinin zayıf olması",
+      "Teknik konular üzerine aşırı odaklanılması",
+      "Ramak kala olayların üzerinde durulması",
+      "Çalışanlar arasında yüksek oranda hastalıklar ve işe devamsızlıklar olması",
+      "Güvenlik ihlallerinin sayısının artması"
+    ],
+    "dogruCevapIndeksi": 2,
     "kategori": "Genel"
   },
   {
-    "soruMetni": "5510. sayılı Sosyal Sigortal ar ve Genel Sağlık Sigortası Kanunu'na göre; işyeriņin faaliyette bulunduğu adresten baskabif itdeki adrese nakledilmesi hâlinde, işyerinin nakledildiği tarihi takip eden kaç gün içinde işyeri bildirgesinin Sosyal Güvenlik Kurumu Başkanlığına verilmesi gerekir?",
+    "soruMetni": "Aşağıdaki kavramlardan hangisi iş yerinde güvenlikle ilgili politika, prosedür ve uygulamalara ilişkin algıları ifade eder?",
     "secenekler": [
-      "letişim, iş birliği ve kontrol seviyelerinin zayıf olması",
-      "Teknik konular üzerine aşırı odaklanılması",
-      ") Ramak kala olayların üzerinde durulması",
-      "Çalişanlar arasinda yüksek oran da hastaliklar ve işe",
-      "Güvenlik ihlallerinin sayısının artması --- SÜTUN AYRACI ---"
+      "Güvenlik iklimi",
+      "Güvenlik endeksi",
+      "Güvenlik sistemi",
+      "Güvenlik performansı",
+      "Güvenlik planı"
     ],
     "dogruCevapIndeksi": 0,
     "kategori": "Genel"
   },
   {
-    "soruMetni": "Yapı işlerinde iş Sağlığ, ve Güvenliği Yönetmeliği'ne göre, aşağıdakilerden Kangis yuksekte çalışmalarda çalışma yerleri için alinacak toplu koruma tedbirlerinden biri değildir?",
+    "soruMetni": "İş sağlığı profesyonelleri için uluslararası etik kurallar rehberine göre, aşağıdakilerden hangisi iş sağlığı uygulamalarının amaçlarından biri değildir?",
     "secenekler": [
-      "Güvenli korkuluklar",
-      "Güvenlik ağları veya hava yastıkları",
-      "Paraşüt tipi kemer sistemleni",
-      "Düşmeyi önleyici platformlar",
-      "Bariyerler ve kapaklar"
+      "İşçilerin sağlığını korumak",
+      "İşçilerin çalışma kapasitelerini güçlendirmek",
+      "İşçilerin yeterliliklerine göre işin uyarlanmasını düzenlemek",
+      "Herkes için güvenli ve sağlıklı çalışma ortamını kurmak",
+      "İşletmelerin kârlılığını artırmak"
     ],
-    "dogruCevapIndeksi": 2,
-    "kategori": "Genel"
+    "dogruCevapIndeksi": 4,
+    "kategori": "Etik"
   },
   {
-    "soruMetni": "I. Acil çıkış yolları ve kapıları, Güvenlik ve Sağlık İşaretleri Yönetmeliği’ne uygun şekilde işaretlenmeli ve işaretler kalıcı olmalıdır.\nII. Aydınlatılması gereken acil çıkış yolları ve kapılarında, elektrik kesilmesi hâlinde, yeterli aydınlatmayı sağlayacak ayrı bir enerji kaynağına bağlı acil aydınlatma sistemi bulunmalıdır.\nIII. Acil çıkış kapıları, yerden tasarruf sağlamak için raylı veya döner kapılar olarak tasarlanamaz.\nIV. Acil çıkış yolları ve kapılarının önünde, gerekli eşyalar bulundurulmalıdır. Acil çıkış yolları ve kapıları ile ilgili\nolarak yukarıdakilerden hangileri doğrudur?",
+    "soruMetni": "Aşağıdakilerden hangisi belirli bir toplulukta herhangi bir zamanda yeni ve eski hastaların toplam sayısının, risk altındaki kişi sayısına bölünmesiyle elde edilen değeri ifade eder?",
     "secenekler": [
-      "Yalnız IV",
-      "I ve III",
-      "I, II ve IIII",
-      "I, III ve IIV",
-      "II, III ve IIV"
-    ],
-    "dogruCevapIndeksi": 2,
-    "kategori": "Genel"
-  },
-  {
-    "soruMetni": "Bir fabrikada çalışan 52 yaşındaki işçi,\nkronik bel ağrısı nedeniyle iş yeri hekimine başvurur. Hekim, işçinin mevcut işinde\nçalışmaya devam etmesinin sağlık durumunu kötüleştirebileceğini tespit eder. İşçi\nmaddi kaygılar nedeniyle rapor almak istemediğini belirtirken işveren ise iş gücü\nkaybını önlemek amacıyla işçinin çalışmaya devam etmesini istemektedir. İş yeri\nhekiminin, hem işçinin sağlığını koruyarak işçiye zarar vermemesi hem de işvereni objektif bir şekilde bilgilendirmesi gerekmektedir.\nBu etik durum ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
-    "secenekler": [
-      "Hekim, işçinin sağlığını korumak için en uygun çalışma koşullarını sağlamak adına işverene tavsiyelerde bulunmalıdır.",
-      "İş yeri hekimi, işçinin karar verme özgürlüğüne saygı göstermelidir.",
-      "İş yeri hekimi, zarar vermeme ilkesi doğrultusunda hareket etmelidir.",
-      "İşverenin iş gücü kaybını önleme talebi, işçinin sağlık durumundan daha öncelikli olmalıdır.",
-      "İş yeri hekimi, tüm çalışanlar arasında adil bir yaklaşım sağlamak için adalet ilkesini göz önünde bulundurmalıdır."
-    ],
-    "dogruCevapIndeksi": 3,
-    "kategori": "Genel"
-  },
-  {
-    "soruMetni": "1930 yılında yürürlüğe konulan ve iş yerlerine sağlık hizmetlerinin götürülmesini i sağlayan kanun aşağıdakilerden hangisidir?",
-    "secenekler": [
-      "Borçlar Kanunu",
-      "506 sayılı SSK Kanunu",
-      "Hafta Tatili Kanunu",
-      "Umumi Hifzissihha Kanunu",
-      "4857 İş Kanunu"
-    ],
-    "dogruCevapIndeksi": 3,
-    "kategori": "Genel"
-  },
-  {
-    "soruMetni": "I 931 sayılı iş Kanunu.\nII 1475 sayılı Iş Kanunu\nIII 3008 sayılı Iş Kanunu.\nIV 4857 sayılı iş Kanunu\nYukarıdaki iş kanunlarının yasalaştığı yıllara göre\nkronolojik sıralaması hangisidir?",
-    "secenekler": [
-      "|, ||-|| –IV",
-      "II|, I| -|, IV",
-      "I|, IV– |",
-      "|| –|, ||-V",
-      "IV, || -||, I"
-    ],
-    "dogruCevapIndeksi": 3,
-    "kategori": "Genel"
-  },
-  {
-    "soruMetni": "De Morbis Artificum Diatriba adlı kitabinda\nkazaları önlemek için iş yerlerinde koruyucu\ngüvenlik önlemlerinin alınmasını öneren ve hasta\nmuayenesi sürecinde ne iş yapıyorsun?\nsorusunun sorulmasını öneren işçi sağlığnın\nkurucusu aşağıdakilerden hangisidir?",
-    "secenekler": [
-      "Paracelsus",
-      "Ramazzini",
-      "Galen",
-      "Hipokrat",
-      "Agricola"
+      "İnsidans hızı",
+      "Prevalans hızı",
+      "Mortalite hızı",
+      "Atfedilen risk",
+      "Oransal risk"
     ],
     "dogruCevapIndeksi": 1,
+    "kategori": "Epidemiyoloji"
+  },
+  {
+    "soruMetni": "Ulusal İş Sağlığı ve Güvenliği Konseyi Yönetmeliği'ne göre, aşağıdakilerden hangisi Konsey sekretaryasının görevlerinden biridir?",
+    "secenekler": [
+      "Ulusal iş sağlığı ve güvenliği politika ve stratejileri için öneriler geliştirmek",
+      "Gerekli görülmesi durumunda çalışma grupları kurmak ve üyelerini belirlemek",
+      "İş sağlığı ve güvenliği konularında araştırma ve geliştirmeye yönelik projeler önermek",
+      "İş sağlığı ve güvenliğini izleme ve inceleme çalışmalarında bulunmak",
+      "Oluşturulan görüş, öneri ve faaliyet raporlarını başkana sunmak"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi gelişmekte olan ülkelerdeki çalışan nüfusun ortak özelliklerinden biri değildir?",
+    "secenekler": [
+      "Küçük yaşta çalışan sayısının fazla olması",
+      "Çalışanların genel eğitim düzeylerinin düşük olması",
+      "Çalışanların mesleki eğitimlerinin yetersiz olması",
+      "Sigortasız çalışan sayısının düşük olması",
+      "Çalışanların genel sağlık düzeyinin düşük olması"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "6331 sayılı İş Sağlığı ve Güvenliği Kanunu'na göre, işverenin genel yükümlülükleriyle ilgili aşağıdakilerden hangisi yanlıştır?",
+    "secenekler": [
+      "Risk değerlendirmesi yapar veya yaptırır.",
+      "Çalışana görev verirken çalışanın sağlık ve güvenlik yönünden işe uygunluğunu göz önüne alır.",
+      "İşyeri dışındaki uzman kişi ve kuruluşlardan hizmet alınması, işverenin sorumluluklarını ortadan kaldırmaz.",
+      "İşyerinde alınan iş sağlığı ve güvenliği tedbirlerine uyulup uyulmadığını izler ve uygunsuzlukların giderilmesini sağlar.",
+      "İş sağlığı ve güvenliği tedbirlerinin maliyetini çalışanlara yansıtabilir."
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Çalışanların Titreşimle İlgili Risklerden Korunmalarına Dair Yönetmeliğe göre, aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      "Mekanik titreşime maruziyet düzeyi değerlendirilirken kullanılan ekipmanla yapılan çalışmalardan elde edilen gözlem sonuçları dikkate alınır.",
+      "Maruziyet eylem değeri, aşıldığı durumda çalışanın titreşime maruziyetinden kaynaklanabilecek risklerin kontrol altına alınmasını gerektiren değeri ifade eder.",
+      "Maruziyet sınır değeri, çalışanların bu değer üzerinde bir titreşime kesinlikle maruz kalmaması gereken değeri ifade eder.",
+      "Çift elle kullanılan aygıtlarda maruziyet, her iki eldeki değerin ortalaması alınarak belirlenir.",
+      "Mekanik titreşime maruziyet düzeyi değerlendirilirken ekipmanın üreticisinden elde edilecek bilgiler de dikkate alınır."
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Teknik"
+  },
+  {
+    "soruMetni": "6331 sayılı İş Sağlığı ve Güvenliği Kanunu'na göre işveren, bir iş kazasını en geç kazadan sonraki kaç iş günü içinde Sosyal Güvenlik Kurumuna bildirmekle yükümlüdür?",
+    "secenekler": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "7"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi meydana gelen kaza sayısı ile çalışma saatleri arasındaki ilişkiyi ifade eder?",
+    "secenekler": [
+      "Kaza sıklık oranı",
+      "Kaza ağırlık oranı",
+      "Tehlike oranı",
+      "Mortalite hızı",
+      "Prevalans hızı"
+    ],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Çocuk ve Genç İşçilerin Çalıştırma Usul ve Esasları Hakkında Yönetmelik'e göre çocuk ve genç işçilerin çalışma koşullarıyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      "Temel eğitimini tamamlamış ve okula gitmeyen çocukların çalışma saatleri günde 5 ve haftada 30 saatten fazla olamaz.",
+      "Okula devam eden çocukların eğitim dönemindeki çalışma süreleri, eğitim saatleri dışında olmak üzere günde 3 ve haftada 15 saatten fazla olamaz.",
+      "Çocuk ve genç işçilerin hafta tatili izinleri kesintisiz 40 saatten az olamaz ve hafta tatili ücreti bir iş karşılığı olmaksızın ödenir.",
+      "Çocuk ve genç işçilerin ulusal bayram ve genel tatillerde çalışma ücretleri iki buçuk kat artırılarak ödenir.",
+      "Çocuk ve genç işçilerin yıllık ücretli izin süresi 30 günden az olamaz."
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "6331 sayılı İş Sağlığı ve Güvenliği Kanunu'na göre, aşağıdakilerden hangisi iş güvenliği uzmanının görevlerinden biridir?",
+    "secenekler": [
+      "Çalışanların sağlık ve çalışma öykülerinin, işe giriş/periyodik muayene formuna yazılması",
+      "İş sağlığı ve güvenliğiyle ilgili eksiklik ve aksaklıkların yazılı olarak işverene bildirilmesi",
+      "İş sağlığı ve güvenliğiyle ilgili tedbirlerin alınması",
+      "Çalışanların işe giriş muayenelerinin yapılması",
+      "Çalışanların rahatsızlık durumlarında ilgili sağlık kuruluşuna sevk edilmesi"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "4857 sayılı İş Kanunu'na göre işçinin evlat edinmesi hâlinde işçiye verilecek izinle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      "Beş gün ücretli izin verilir.",
+      "İşveren herhangi bir izin vermek zorunda değildir.",
+      "Üç gün ücretli izin verilir.",
+      "İşçinin yıllık ücretli izin süresine iki gün eklenir.",
+      "İşçinin talep etmesi hâlinde beş güne kadar ücretsiz izin verilir."
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "6331 sayılı İş Sağlığı ve Güvenliği Kanunu'nda, aşağıdakilerden hangisi risk değerlendirmesi yapılırken dikkate alınması gereken hususlar arasında sayılmamıştır?",
+    "secenekler": [
+      "İşyeri düzeni",
+      "Kadın çalışanların durumu",
+      "İşverenin görüşleri",
+      "Belirli risklerden etkilenecek çalışanların durumu",
+      "Kullanılan kimyasal maddeler"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "İş Sağlığı ve Güvenliği Risk Değerlendirmesi Yönetmeliği'ne göre, az tehlikeli iş yerlerinde risk değerlendirmesi kural olarak en geç kaç yılda bir yenilenir?",
+    "secenekler": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "İşe giriş muayenesi, aşağıdaki iş sağlığı ve güvenliği uygulama ilkelerinden hangisi kapsamında değerlendirilir?",
+    "secenekler": [
+      "Uygun işe yerleştirme",
+      "İşyeri ortam faktörlerinin değerlendirilmesi",
+      "İşyeri risklerinin kontrolü",
+      "İşyerinde sağlık hizmetinin sunulması",
+      "Sağlık eğitimi ve danışmanlık"
+    ],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi çalışan memnuniyetini artırmak amacıyla uygulanabilecek iş yapılandırma ilkelerinden biri değildir?",
+    "secenekler": [
+      "Görev genişletme",
+      "Görev zenginleştirme",
+      "Monoton çalışma",
+      "Dönüşümlü çalışma",
+      "Grup çalışması"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Oda şartlarında aşağıdaki metallerden hangisi su ile tepkime vererek yanıcı bir gaz çıkarır?",
+    "secenekler": [
+      "Bakır",
+      "Nikel",
+      "Sodyum",
+      "Kobalt",
+      "Çinko"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Kimya"
+  },
+  {
+    "soruMetni": "Viral hepatitler ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      "Hepatit, karaciğerin iltihabi hastalığıdır.",
+      "Karaciğerde fibrozis ve siroz gibi komplikasyonlar görülebilir.",
+      "Hepatit B enfeksiyonu çoğu kez sessiz enfeksiyon olarak seyreder.",
+      "Korunmada, hijyen ve dezenfeksiyon uygulamaları önemlidir.",
+      "Sadece Hepatit C'nin aşısı vardır."
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Sağlık"
+  },
+  {
+    "soruMetni": "Kişisel Koruyucu Donanımların İşyerlerinde Kullanılması Hakkında Yönetmelik'e göre madenler, inşaat sahaları ve endüstriyel alanlarda kullanılan koruyucu baretler, kişisel koruyucu donanım listesinde aşağıdakilerin hangisi kapsamında yer alır?",
+    "secenekler": [
+      "El ve kol koruyucuları",
+      "Baş koruyucuları",
+      "Solunum sistemi koruyucuları",
+      "Gövde ve karın bölgesi koruyucuları",
+      "Vücut koruyucuları"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Teknik"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi epidemiyolojinin iş sağlığı alanında kullanım amaçlarından biri değildir?",
+    "secenekler": [
+      "Çalışanların genel sağlık sorunlarının değerlendirilmesi",
+      "Nedensel ilişkilerin araştırılması",
+      "Sağlığı geliştirici faktörlerin tanımlanması",
+      "Koruyucu yöntemlerin etkinliğinin değerlendirilmesi",
+      "Kayıtların güvenliğinin sağlanması"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Epidemiyoloji"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi, yetişkin eğitimi kapsamında, çalışanların sağlığı ve güvenliği eğitimlerine ilişkin uygulamalardan biri değildir?",
+    "secenekler": [
+      "Katılımcıların beklentileri saptanmalı, amaç ve öğrenim hedefleri açıklanmalıdır.",
+      "Öğrenme için uygun ortam oluşturulmalıdır.",
+      "Eğitimin başlangıcında eğiticiler ve katılımcılarla birlikte tanışma etkinliği yapılmalıdır.",
+      "Katılımcıların iş kolu ve öğrenim düzeyi farklı olsa da eğitimin içerik ve yöntemi bütün gruplar için aynı olmalıdır.",
+      "Katılımcıların öğrenme sürecine aktif katılımını sağlayacak yöntemler kullanılmalıdır."
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Eğitim"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi çalışan sağlığını etkileyen işyeri ortam faktörlerinden biri değildir?",
+    "secenekler": [
+      "Hızlı ve uzun süre çalışma gerektiren işler",
+      "Vardiyalı çalışma",
+      "Gürültülü ve sıcak ortamda çalışma",
+      "Çalışanın tütün kullanması",
+      "Gazlar ve solventlerin yoğun olduğu çalışma ortamı"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Kurşunun vücuttan atılması en çok hangi yolla olmaktadır?",
+    "secenekler": [
+      "Dışkı yoluyla",
+      "İdrar yoluyla",
+      "Deri yoluyla",
+      "Solunum yoluyla",
+      "Mukozalar yoluyla"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Sağlık"
+  },
+  {
+    "soruMetni": "Hayvan yetiştiriciliği yapılan bir çiftlikte çok sayıda hayvanın gebeliği düşükle sonuçlanmıştır. Bu çiftlikteki çalışanlar öncelikle hangi hastalık açısından risk altındadır?",
+    "secenekler": [
+      "Malarya",
+      "Brusellozis",
+      "Layşmanyazis",
+      "Kuduz",
+      "Lepra"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Sağlık"
+  },
+  {
+    "soruMetni": "Aşağıdaki bulaşıcı meslek hastalıklarından hangisinin aşı uygulaması Türkiye'de yoktur?",
+    "secenekler": [
+      "Hepatit B",
+      "Tüberküloz",
+      "HIV enfeksiyonu",
+      "Tetanoz",
+      "Kuduz"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Sağlık"
+  },
+  {
+    "soruMetni": "1982 Anayasası'na göre, Türkiye Büyük Millet Meclisince kabul edilen kanunlar aşağıdakilerin hangisi tarafından yayımlanır?",
+    "secenekler": [
+      "Adalet bakanı",
+      "İçişleri bakanı",
+      "Cumhurbaşkanı",
+      "TBMM başkanı",
+      "Anayasa Mahkemesi"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "4857 sayılı İş Kanunu'na göre, turizm sektöründe denkleştirme süresi toplu iş sözleşmesi ile kaç aya kadar artırılabilir?",
+    "secenekler": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik'e göre; solunduğunda ve cilde nüfuz ettiğinde aşırı derecede hassasiyet meydana getirme özelliği olan ve daha sonra maruz kalınması durumunda karakteristik olumsuz etkilerin ortaya çıkmasına neden olan madde aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "Alevlenir madde",
+      "Aşındırıcı madde",
+      "Mutajen madde",
+      "Alerjik madde",
+      "Kanserojen madde"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Kimya"
+  },
+  {
+    "soruMetni": "Uluslararası Çalışma Örgütü (ILO) hangi yılda kurulmuştur?",
+    "secenekler": [
+      "1906",
+      "1919",
+      "1929",
+      "1944",
+      "1956"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Tarih"
+  },
+  {
+    "soruMetni": "6331 sayılı İş Sağlığı ve Güvenliği Kanunu'na göre, Ulusal İş Sağlığı ve Güvenliği Konseyi tarafından alınan kararların hukuki bağlayıcılık düzeyi aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "Yönerge niteliğindedir.",
+      "Kanun niteliğindedir.",
+      "Tavsiye niteliğindedir.",
+      "Uluslararası sözleşme maddesi niteliğindedir.",
+      "Yönetmelik niteliğindedir."
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "İş Sağlığı ve Güvenliği Risk Değerlendirmesi Yönetmeliği'ne göre, aşağıdakilerden hangisi işyerlerinde risk değerlendirmesi ekibi içinde yer alır?",
+    "secenekler": [
+      "Sivil savunma uzmanı",
+      "Güvenlik şefi",
+      "Muhasebe müdürü",
+      "Çalışan temsilcisi",
+      "Diğer sağlık personeli"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "İşyerlerinde Acil Durumlar Hakkında Yönetmelik'e göre, hazırlanan acil durum planının uygulama adımlarının düzenli olarak takip edilebilmesi ve uygulanabilirliğinden emin olunabilmesi için işyerlerinde tatbikatlar hangi periyotlarla en az bir defa tekrarlanır?",
+    "secenekler": [
+      "Her ay",
+      "Üç ay",
+      "Altı ay",
+      "Her yıl",
+      "İki yıl"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu'na göre; geçirdiği iş kazası nedeniyle ayakta tedavi gören sigortalıya verilecek geçici iş göremezlik ödeneği, günlük kazancının ne kadarı oranındadır?",
+    "secenekler": [
+      "1/1 (%100)",
+      "3/4 (%75)",
+      "2/3 (%66,6)",
+      "1/2 (%50)",
+      "1/5 (%20)"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Tehlikeli sonuçlar doğurabilecek olayları, multidisipliner bir ekip tarafından belirli anahtar kılavuz kelimelerle beyin fırtınası yaparak sorgulayan, bu olayların olması veya olmaması hâlinde ne gibi sonuçlar ortaya çıkaracağını araştıran ve genellikle kimya endüstrisinde kullanılan yöntem aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "Tehlike ve İşletilebilirlik Analizi (HAZOP)",
+      "Hata Ağacı Analizi (FTA)",
+      "Olası Hata Türleri ve Etkileri Analizi (FMEA)",
+      "İş Güvenliği Analizi (JSA)",
+      "Olay Ağacı Analizi (ETA)"
+    ],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Teknik"
+  },
+  {
+    "soruMetni": "4857 sayılı İş Kanunu'na göre, işveren kavramıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      "Gerçek kişi olabilir.",
+      "Tüzel kişi olabilir.",
+      "Tüzel kişiliği bulunmayan kurum ve kuruluşlar olabilir.",
+      "Kamu kurum ve kuruluşları olabilir.",
+      "İşçi istihdam etmeyen kurum ve kuruluşlar olabilir."
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi iş kazalarının sonuçları (yaralanma ve iş günü kaybı) bakımından anlam ifade eden bir değerlendirme elde etmeye olanak tanır?",
+    "secenekler": [
+      "İş kazası sıklık hızı",
+      "Prevalans hızı",
+      "İnsidans hızı",
+      "Morbidite hızı",
+      "İş kazası ağırlık hızı"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi meslek hastalıklarının özelliklerinden biri değildir?",
+    "secenekler": [
+      "İş yeri ortamında karşılaşılan etkenler sonucu ortaya çıkar.",
+      "Yapılan iş ile hastalık arasında nedensellik ilişkisi vardır.",
+      "Meslek hastalıkları çoğunlukla akut seyirli hastalıklardır.",
+      "İş yerinde yapılacak düzenlemelerle korunulabilir olan sağlık sorunlarıdır.",
+      "Bazı meslek hastalıklarının tedaviyle iyileştirilmesi mümkün olabilir."
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Sağlık"
+  },
+  {
+    "soruMetni": "Arsenik bileşikleri; tütsü formunun inhalasyonu, sindirim kanalından emilim ve deriden absorbe edilme yollarından hangileriyle vücuda girer?",
+    "secenekler": [
+      "Yalnız I (inhalasyon)",
+      "Yalnız II (sindirim)",
+      "Yalnız III (deri)",
+      "I ve II",
+      "I, II ve III"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Kimya"
+  },
+  {
+    "soruMetni": "Çalışma ortamındaki risklerin kontrolünde uygulanan hiyerarşik yaklaşıma göre, aşağıdakilerden hangisi ilk sırada yer alır?",
+    "secenekler": [
+      "Mühendislik kontrollerinin yapılması",
+      "İdari kontrollerin yapılması",
+      "Tehlike ve/veya riskin ortadan kaldırılması",
+      "Uyarıcı işaretler kullanılması",
+      "Kişisel koruyucu donanım kullanılması"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Teknik"
+  },
+  {
+    "soruMetni": "Yetişkinlerin öğrenme özellikleriyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      "Eğitimin kendi konularıyla bağlantılı olması istemezler.",
+      "Eğitime etkin olarak katılmak istemezler.",
+      "Eğitimcilerinden beklenti düzeyleri düşüktür.",
+      "Eğitimlerde güvenli bir ortama gereksinim duyarlar.",
+      "Eğitimlerde olumlu da olsa geri bildirim verilmesini istemezler."
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Eğitim"
+  },
+  {
+    "soruMetni": "Asbestli malzeme üretimi yapılan 500 kişinin çalıştığı bir işletmede, çalışanlar 10 yıl boyunca akciğer kanseri açısından izlenmiş ve bu süre içinde 4 işçide akciğer kanseri geliştiği saptanmıştır. Bu işletmede akciğer kanserinin 10 yıllık insidans hızı binde kaçtır?",
+    "secenekler": [
+      "8",
+      "10",
+      "20",
+      "40",
+      "125"
+    ],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Epidemiyoloji"
+  },
+  {
+    "soruMetni": "Bir iş yerinde on yıldır çalışan 33 yaşındaki erkek işçi. İki aydır burun tıkanıklığı, burun ve etrafında şişkinlik, burun kanaması şikayetleriyle doktora başvuruyor ve incelemeler sonunda sinonasal karsinom tanısı alıyor. Bu çalışanın maruz kaldığı olası etken aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "4-Amino bifenil",
+      "Benzen",
+      "Nikel",
+      "Mono vinil klorür",
+      "Civa"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Sağlık"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi zoonotik hastalıklardan biri değildir?",
+    "secenekler": [
+      "Salmonellozis",
+      "Tularemi",
+      "Şarbon",
+      "Toksoplazmozis",
+      "Begazozis"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Sağlık"
+  },
+  {
+    "soruMetni": "İş Sağlığı ve Güvenliği Hizmetleri Yönetmeliği'ne göre, işverenler çalışana ait kişisel sağlık dosyalarını, işten ayrılma tarihinden itibaren en az kaç yıl süreyle saklamalıdır?",
+    "secenekler": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Biyolojik Etkenlere Maruziyet Risklerinin Önlenmesi Hakkında Yönetmelik'e göre, kalıcı veya gizli enfeksiyona neden olan biyolojik etkenlere maruziyet söz konusu ise sağlık gözetimine ait kişisel tıbbi kayıtlar, bilinen son maruziyetten sonra en az kaç yıl saklanır?",
+    "secenekler": [
+      "10",
+      "15",
+      "20",
+      "40",
+      "45"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "4857 sayılı İş Kanunu'na göre, tekstil fabrikasında çalışan ve ikiz gebeliği olan bir kadın işçinin doğumdan önce çalıştırılmaması esas olan süre kaç haftadır?",
+    "secenekler": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Hazırlama, Tamamlama ve Temizleme İşleri Yönetmeliği'ne göre: çalışan sayısı 31 ile 60 arasında olan işyerlerinde hazırlama, tamamlama ve temizleme işlerinde çalıştırılacak işçi sayısı kaçı geçemez?",
+    "secenekler": [
+      "3",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "4857 sayılı İş Kanunu'na göre, ebeveynlerden sadece biri tarafından kullanılması kaydıyla aşağıdaki durumlardan hangisi için bir yıl içinde, toptan veya bölümler hâlinde en fazla on gün kullanılabilecek ücretli mazeret izni verilebilir?",
+    "secenekler": [
+      "En az yüzde on oranında engelli çocuğun bakımı",
+      "Çocuğun her derecedeki engel durumu veya herhangi bir hastalık tedavisinin hekim raporunca belirtilmesi hâli",
+      "En az yüzde yetmiş oranında engeli veya süregen hastalığı olan çocuğun tedavisi",
+      "Doğum sonrası ücretsiz izin veya kısmi süreli çalışma hakkını kullanmayan işçilerin çocuklarının hastalanması",
+      "Doğum sonrasında engelli hali ortaya çıkan çocuğun ilköğretime başladığı aya kadar bakımı"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "6331 sayılı İş Sağlığı ve Güvenliği Kanunu'nun hükümleri aşağıdakilerden hangisine uygulanır?",
+    "secenekler": [
+      "Ev hizmetleri",
+      "Hükümlü ve tutuklulara yönelik infaz hizmetleri sırasında iyileştirme kapsamında yapılan eğitim faaliyetleri",
+      "Afet ve acil durum birimlerinin müdahale faaliyetleri",
+      "Türk Silahlı Kuvvetlerine ait bakım merkezleri",
+      "Hükümlü ve tutuklulara yönelik infaz hizmetleri sırasında iyileştirme kapsamında yapılan meslek edindirme faaliyetleri"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "On sekiz yaşından küçük olanların bar, kabare, dans salonları, kahve, gazino ve hamamlarda çalıştırılmasının yasak olduğuna ilişkin düzenleme aşağıdaki kanunların hangisinde yer alır?",
+    "secenekler": [
+      "4857 sayılı İş Kanunu",
+      "6331 sayılı İş Sağlığı ve Güvenliği Kanunu",
+      "6098 sayılı Türk Borçlar Kanunu",
+      "1593 sayılı Umumi Hıfzıssıhha Kanunu",
+      "5237 sayılı Türk Ceza Kanunu"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Çocuk ve Genç İşçilerin Çalıştırılma Usul ve Esasları Hakkında Yönetmelik'e göre, çocuk ve genç işçilerin çalışma koşullarıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      "Okula veya eğitime devam edenlerin yıllık ücretli izinleri okulların tatil olduğu, kursa ve diğer eğitim programlarına devam edilmediği dönemlerde verilir.",
+      "Hafta tatili izinleri kesintisiz kırk saatten az olamaz.",
+      "Ulusal bayram ve genel tatil günlerinde rızaları alınmak suretiyle çalıştırılabilir.",
+      "Yıllık ücretli izin süresi yirmi günden az olamaz.",
+      "Yıllık ücretli iznin kesintisiz kullandırılması esas olmasına rağmen yararına olduğu durumlarda işçinin isteği üzerine en fazla ikiye bölünerek kullandırılabilir."
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Aşağıdakilerin hangisinde iş kazası; işyerinde veya işin yürütümü nedeniyle meydana gelen, ölüme sebebiyet veren veya vücut bütünlüğünü ruhen ya da bedenen engelli hâle getiren olay şeklinde tanımlanmıştır?",
+    "secenekler": [
+      "4857 sayılı İş Kanunu",
+      "6331 sayılı İş Sağlığı ve Güvenliği Kanunu",
+      "5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu",
+      "5393 sayılı Belediye Kanunu",
+      "1593 sayılı Umumi Hıfzısıhha Kanunu"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Mevzuat"
+  },
+  {
+    "soruMetni": "Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği'ne göre çalışma yüzeyi açısı 10 dereceden az olduğu alanlarda, geçici kenar koruma sistemi olarak asgari düzeyde aşağıdakilerden hangisi kullanılmalıdır?",
+    "secenekler": [
+      "Sınıf A",
+      "Sınıf B",
+      "Sınıf C",
+      "Sınıf 1",
+      "Sınıf 2"
+    ],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Teknik"
+  },
+  {
+    "soruMetni": "1982 Anayasası’na göre Cumhurbaşkanı, bütçe kanun teklifini aşağıdakilerden hangisine sunar?",
+    "secenekler": [
+      "Türkiye Büyük Millet Meclisine",
+      "Ekonomik ve Sosyal Konseye",
+      "Millî Güvenlik Kuruluna",
+      "Hazine ve Maliye Bakanlığına",
+      "Devlet Denetleme Kuruluna"
+    ],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "4857 sayılı İş Kanunu’na göre eşit davranma ilkesiyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      "İşveren, kısmi süreli çalışan işçiye tam süreli çalışan işçi karşısında esaslı neden olmadıkça farklı işlem yapamaz.",
+      "İşveren, belirli süreli çalışan işçiye belirsiz süreli çalışan işçi karşısında esaslı neden olmadıkça farklı işlem yapamaz.",
+      "İşverenin eşit davranma ilkesine aykırı davrandığını ispat etmekle işçi kural olarak yükümlüdür.",
+      "Aynı veya eşit değerde bir iş için cinsiyet nedeniyle daha düşük ücret kararlaştırılamaz.",
+      "İşçinin cinsiyeti nedeniyle özel koruyucu hükümlerin uygulanması, daha düşük ücret ödenmesini haklı kılar."
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "4857 sayılı İş Kanunu’na göre taraflarca iş sözleşmesine konulan deneme kaydının süresi, toplu iş sözleşmesiyle en fazla kaç aya kadar uzatılabilir?",
+    "secenekler": ["3", "4", "5", "6", "8"],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Choudhry ve arkadaşlarına göre, aşağıdakilerden hangisi olumlu güvenlik kültürünün sağlanması ve geliştirilmesi için gerekli hususlardan biri değildir?",
+    "secenekler": [
+      "Yönetimin iş güvenliğine yönelik kaynak ve zaman tahsis etmesi",
+      "Güvenli davranışlar için talimatlar, uyarı işaretleri gibi araç ve aktivitelerden yararlanılması",
+      "Güvenlikle ilgili konuları çalışanların sahiplenmesi ve ilgi göstermesi",
+      "Güvenlik ihlalleriyle ilgili cezaların artırılması",
+      "İş sağlığı ve güvenliğine ilişkin eğitim ve seminerler düzenlenmesi"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "İş sağlığı profesyonelleri için uluslararası etik kurallar rehberine göre, aşağıdakilerden hangisi iş sağlığı çalışanlarının görev ve yükümlülükleri arasında yer almaz?",
+    "secenekler": [
+      "Bulundukları yerlerde, güvenlik ve sağlık kurullarıyla doğrudan ilişkide bulunmayı sürdürmek",
+      "İşyerlerinin işçilere göre uyarlanması konusunda işçilerle ve yönetimle iletişim içinde bulunmak",
+      "İşçilerin sağlığını etkileyebilecek risk etmenleri konusunda yönetimi ve işçileri bilgilendirmek",
+      "Teknik açıdan kusursuz ve kolaylıkla uygulanabilen basit önlemlerin seçilmesine dikkat etmek",
+      "İşyerlerinde üretim maliyetlerini azaltacak tedbirlerin uygulanmasını sağlamak"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi meslek hastalığı değildir?",
+    "secenekler": [
+      "Silikozis",
+      "Asbestozis",
+      "Çalışma ortamında gürültüye bağlı işitme kaybı",
+      "Bagasozis",
+      "Sinüzit"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "İş Sağlığı ve Güvenliği Araştırma ve Geliştirme Enstitüsü Başkanlığı Görev, Yetki ve Sorumlulukları Hakkında Yönetmelik'e göre, aşağıdakilerden hangisi İSGÜM'ün teşkilat yapısında yer almaz?",
+    "secenekler": [
+      "Teknik bölümler",
+      "Sağlık bölümleri",
+      "İdari hizmet bölümleri",
+      "Bölge laboratuvar müdürlükleri",
+      "Eğitim bölümleri"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "İş Sağlığı ve Güvenliği Hizmetleri Yönetmeliği’ne göre, aşağıdakilerden hangisi ortak sağlık ve güvenlik birimi sorumlu müdürünün görev, yetki ve sorumluluklarından biri değildir?",
+    "secenekler": [
+      "OSGB personelinin görevlendirilmesinin takibi",
+      "OSGB kayıtlarının tutulması ve arşivlenmesi",
+      "Genel Müdürlük tarafından istenen belgelerin hazırlanması",
+      "OSGB’lerin başvuru, yetkilendirme ve vize işlemlerinin takibi",
+      "OSGB personelinin kariyer gelişiminin takibi"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği'ne göre, bir maden ocağında lağım atılacak yeri en son kim terk eder?",
+    "secenekler": [
+      "Maden mühendisi",
+      "Metalürji ve malzeme mühendisi",
+      "İş güvenliği uzmanı",
+      "Ateşleyici",
+      "Vardiya amiri"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği'ne göre, yeraltı maden işlerinin yapıldığı işyerlerinde hazırlanan yer altı çalışma planıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "secenekler": [
+      "Yer altı çalışmalarını açıkça gösterecek yer altı çalışma planı üç boyutlu olarak hazırlanır.",
+      "Yer altı çalışma planları en geç üç ayda bir güncellenir ve işyerinde bulundurulur.",
+      "Yollar, üretim alanlarıyla çalışmayı ve güvenliği etkilemesi beklenen diğer özellikler yer altı çalışma planı üzerinde gösterilir.",
+      "Eski çalışma yerleriyle ilgili bütün bilgiler ayrıntılı olarak imalat haritalarına işlenir.",
+      "Yer altı çalışma planları sağlık ve güvenlik yönünden gerekli olduğu sürece saklanır."
+    ],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Sağlık ve Güvenlik İşaretleri Yönetmeliği’ne göre, dikdörtgen veya kare biçiminde ve yeşil zemin üzerine beyaz piktogram aşağıdaki işaretlerden hangisi için kullanılır?",
+    "secenekler": [
+      "Yangınla mücadele işaretleri",
+      "Acil çıkış ve ilk yardım işaretleri",
+      "Emredici işaretler",
+      "Yasaklayıcı işaretler",
+      "Uyarı işaretleri"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi kaza oluşum teorilerinden biri değildir?",
+    "secenekler": [
+      "Epidemiyoloji Kuramı",
+      "Kaza/Olay Kuramı",
+      "Domino Etkisi Kuramı",
+      "Ergonomi Kuramı",
+      "Sistem Kuramı"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "İşyeri Hekimi ve Diğer Sağlık Personelinin Görev, Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik’e göre, aşağıdakilerden hangisi özel politika gerektiren gruplar arasında yer almaz?",
+    "secenekler": [
+      "Gebe veya emziren kadınlar",
+      "Kronik hastalığı olanlar",
+      "İlaç ve uyuşturucu bağımlılığı olanlar",
+      "Birden fazla iş kazası geçirmiş olanlar",
+      "Tarım işlerinde çalışanlar"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Sağlık Kuralları Bakımından Günde Azami Yedi Buçuk Saat veya Daha Az Çalışılması Gereken İşler Hakkında Yönetmelik’e göre, aşağıdakilerden hangisi bir çalışanın günde en fazla yedi buçuk saat çalışabileceği işlerden biri değildir?",
+    "secenekler": [
+      "Toz altı kaynak işleri",
+      "Alüminyum oksit üretimi işleri",
+      "Cıva buharlı elektrik ampulleri yapımı işleri",
+      "Camı fırın başından alma işleri",
+      "Karbamatlı ve organik fosforlu insektisitlerin yapımı işleri"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "6331 sayılı İş Sağlığı ve Güvenliği Kanunu’na göre işveren, 250 çalışanı bulunan bir işyerinde kaç çalışan temsilcisi görevlendirmelidir?",
+    "secenekler": ["1", "2", "3", "4", "5"],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "6331 sayılı İş Sağlığı ve Güvenliği Kanunu'na göre, iş sağlığı ve güvenliği hizmetlerinin desteklenmesinin giderleri aşağıdakilerin hangisi tarafından finanse edilir?",
+    "secenekler": [
+      "Hazine ve Maliye Bakanlığı",
+      "İş Sağlığı ve Güvenliği Araştırma ve Geliştirme Enstitüsü Başkanlığı",
+      "Sosyal Güvenlik Kurumu",
+      "Cumhurbaşkanlığı",
+      "İş Sağlığı ve Güvenliği Genel Müdürlüğü"
+    ],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Binaların Yangından Korunması Hakkında Yönetmelik’e göre, aşağıdaki yanıcı maddelerden hangisi nedeniyle meydana gelen yangınlar A sınıfı yangın kapsamına girer?",
+    "secenekler": ["Benzin", "Metan", "Lityum", "Hidrojen", "Kömür"],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "24 çalışanı olan bir işyerinde, diğer sağlık personeli ayda en az kaç dakika görev yapar?",
+    "secenekler": ["120", "192", "240", "360", "480"],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi çalışma ortamında bulaşıcı hastalıklardan korunmada birincil korunma önlemleri arasında yer almaz?",
+    "secenekler": [
+      "İşi gereği seyahat edenlerin bağışıklanması",
+      "Kemoproflaksi",
+      "Portör (taşıyıcı) muayenesi",
+      "Su sanitasyonu",
+      "Vektör kontrolü"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "İşveren, Asbestle Çalışmalarda Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik kapsamına giren çalışmalara başlamadan önce iş planı hazırlamak ve işyerinin bağlı bulunduğu Çalışma ve İş Kurumu il müdürlüğüne iş planı ile birlikte bildirimde bulunmakla yükümlüdür. Buna göre aşağıdakilerden hangisi bu bildirim kapsamında yer almaz?",
+    "secenekler": [
+      "Sökümü yapılacak asbestin türü ve miktarı",
+      "Çalışan sayısı",
+      "İşe başlama tarihi ve işin tahmini süresi",
+      "Asbest söküm uzmanı belgesi",
+      "Asbest söküm işyeri hekimi belgesi"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Biyolojik Etkenlere Maruziyet Risklerinin Önlenmesi Hakkında Yönetmelik'e göre, aşağıdakilerden hangisi, kişisel tıbbi kayıtların bilinen son maruziyetten itibaren kırk yıl süre ile saklanması gereken durumlardan biri değildir?",
+    "secenekler": [
+      "Kalıcı veya gizli enfeksiyona neden olduğu bilinen biyolojik etkenlere maruziyet",
+      "Eldeki bilgi ve verilere göre, seneler sonra hastalığın ortaya çıkmasına kadar teşhis edilemeyen enfeksiyonlara sebep olan biyolojik etkenlere maruziyet",
+      "Tedaviye rağmen uzun süreler boyunca tekrarlayan hastalıklarla sonuçlanan biyolojik etkenlere maruziyet",
+      "Enfeksiyon risk düzeyine göre yapılan sınıflandırmada grup 2'de yer alan biyolojik etkenlerin herhangi birine maruziyet",
+      "Hastalığın gelişmesinden önce uzun kuluçka dönemi olan enfeksiyonlara sebep olan biyolojik etkenlere maruziyet"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Ergonomik sorunlardan, biyomekanik zorlanmaların olduğu işlerde aşağıdakilerden hangisinin daha sık görülmesi beklenir?",
+    "secenekler": [
+      "Deri hastalıkları",
+      "Kas iskelet sistemi hastalıkları",
+      "Kalp damar sistemi hastalıkları",
+      "Solunum sistemi hastalıkları",
+      "Mesleki kanserler"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi, düşük konsantrasyonlarda uzun süreli maruz kalma bağlı olarak yorgunluk, baş ağrısı, baş dönmesi, mide bulantısı, koroner kalp hastalığı, uyku ve hafıza bozukluklarına neden olabilen kimyasal boğucu gazdır?",
+    "secenekler": ["Karbon monoksit", "Karbon dioksit", "Metan", "Azot", "Etan"],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Kurşunun metabolizması ile ilgili,\nI. Eritrositlere bağlanarak bütün organlara taşınır.\nII. En çok solunum yolunda vücuda alınır.\nIII. Depolanma bakımından karaciğer en önemli organdır.\nifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
+    ],
+    "dogruCevapIndeksi": 2,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "6331 sayılı İş Sağlığı ve Güvenliği Kanunu’na göre; I. az tehlikeli, II. tehlikeli, III. çok tehlikeli işyerlerinin hangilerinde çalışacakların yapacağı işle ilgili mesleki eğitim aldıklarını belgeleme zorunluluğu vardır?",
+    "secenekler": [
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Kişisel Koruyucu Donanımların İşyerlerinde Kullanılması Hakkında Yönetmelik’e göre aşağıdakilerden hangisi eldiven kullanılmasının gerekli olabileceği iş ve sektörler arasında yer almaz?",
+    "secenekler": [
+      "Aşırı sıcak ve soğuk temas gerektiren işler",
+      "Asit ve baz çözeltileriyle yapılan çalışmalar",
+      "Kaynak işleri",
+      "Yüksek vinç kabinlerinde çalışmalar",
+      "Biyolojik ajanların olduğu işler"
+    ],
+    "dogruCevapIndeksi": 3,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Üçgen şeklinde, siyah çerçeveli, sarı zemin üzerine siyah piktogram ile belirtilen işaret levhaları aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "Yasaklayıcı işaretler",
+      "Uyarı işaretleri",
+      "Emredici işaretler",
+      "Acil çıkış ve ilk yardım işaretleri",
+      "Yangınla mücadele işaretleri"
+    ],
+    "dogruCevapIndeksi": 1,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi basıncı ölçmek için kullanılır?",
+    "secenekler": ["Barometre", "Kuru termometre", "Anemometre", "Psikrometre", "Higrometre"],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi işyeri ortamında bulunabilen kimyasal risk etmenlerinden biri değildir?",
+    "secenekler": [
+      "Ağır metal",
+      "Azot oksitler",
+      "Pestisit",
+      "Organik çözücü",
+      "İyonlaştırıcı radyasyon"
+    ],
+    "dogruCevapIndeksi": 4,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Aşağıdakilerden hangisi akciğerlerde toz depolanması ve doku reaksiyonu ile seyreden hastalıkların genel adıdır?",
+    "secenekler": [
+      "Pnömokonyoz",
+      "Tüberküloz",
+      "Bronşiyal karsinom",
+      "Asfeksi",
+      "Bronşit"
+    ],
+    "dogruCevapIndeksi": 0,
+    "kategori": "Genel"
+  },
+  {
+    "soruMetni": "Aşağıdakilerin hangisi sıcak ortamda çalışma sonucu karşılaşılabilecek sorunlardan biri değildir?",
+    "secenekler": [
+      "Deri ve altındaki dokuların zarar görmesi",
+      "Zihinsel performansın azalması",
+      "Kan dolaşımının yavaşlaması",
+      "Baş dönmesi",
+      "Vücudun su ve tuz kaybetmesi"
+    ],
+    "dogruCevapIndeksi": 3,
     "kategori": "Genel"
   }
 ]

@@ -9,33 +9,49 @@
         android:id="@+id/cropImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/layoutControls" />
+        android:layout_above="@+id/layoutBottom" />
 
     <LinearLayout
-        android:id="@+id/layoutControls"
+        android:id="@+id/layoutBottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#222222"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:background="#1A1A1A"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btnEkle"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvEklenenSorular"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:text="BU SORUYU EKLE (+)"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:backgroundTint="#4CAF50" />
+            android:layout_height="120dp"
+            android:paddingTop="4dp"
+            android:background="#222222"
+            android:visibility="gone" />
 
-        <Button
-            android:id="@+id/btnBitti"
+        <LinearLayout
+            android:id="@+id/layoutControls"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="BİTTİ, DÜZENLEMEYE GEÇ"
-            android:backgroundTint="#607D8B" />
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btnEkle"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="KIRPMAYI BAŞLAT"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:backgroundTint="#2196F3" />
+
+            <Button
+                android:id="@+id/btnBitti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="BİTTİ, DÜZENLEMEYE GEÇ (0)"
+                android:backgroundTint="#607D8B"
+                android:enabled="false" />
+        </LinearLayout>
     </LinearLayout>
 
     <ProgressBar

@@ -5,11 +5,17 @@ import android.content.Intent
 import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.ProgressBar
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.canhub.cropper.CropImageView
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
@@ -23,10 +29,9 @@ class SoruKirpiciActivity : AppCompatActivity() {
     private lateinit var btnEkle: Button
     private lateinit var btnBitti: Button
     private lateinit var progressBar: ProgressBar
+    private lateinit var rvEklenenSorular: RecyclerView
+    private val eklenenSorularListesi = mutableListOf<String>()
     
-    private val biriktirilenMetin = StringBuilder()
-    private var soruSayisi = 0
-
     private var pdfPath: String? = null
     private var pageIndex: Int = -1
 
@@ -38,6 +43,10 @@ class SoruKirpiciActivity : AppCompatActivity() {
         btnEkle = findViewById(R.id.btnEkle)
         btnBitti = findViewById(R.id.btnBitti)
         progressBar = findViewById(R.id.cropProgressBar)
+        rvEklenenSorular = findViewById(R.id.rvEklenenSorular)
+
+        rvEklenenSorular.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        updateListVisibility()
 
         val imageUri = intent.getParcelableExtra<Uri>("IMAGE_URI")
         pdfPath = intent.getStringExtra("PDF_PATH")
@@ -54,8 +63,6 @@ class SoruKirpiciActivity : AppCompatActivity() {
         cropImageView.guidelines = CropImageView.Guidelines.ON
         cropImageView.isShowCropOverlay = false // Çerçeveyi başta gizle
         
-        // Köşeleri belirginleştirme ayarları (Doğrudan özellik erişimi)
-        // Not: 4.5.0 sürümünde bu alanlar public field olarak erişilebilir
         cropImageView.apply {
             setMultiTouchEnabled(true)
             setCenterMoveEnabled(true)
@@ -89,19 +96,78 @@ class SoruKirpiciActivity : AppCompatActivity() {
         }
 
         btnBitti.setOnClickListener {
+            // Her bir kırpma işlemini ayrı bir soru olarak işaretlemek için başına numara ekliyoruz.
+            // SoruParser bu numaraları (1., 2. vb) gördüğünde yeni bir soruya geçildiğini anlar.
+            val biriktirilenMetin = eklenenSorularListesi.mapIndexed { index, s ->
+                val trimmed = s.trim()
+                if (trimmed.isEmpty()) return@mapIndexed ""
+                
+                // Eğer metin zaten bir sayı ve işaretle başlamıyorsa (örn: "1." veya "1)"), 
+                // otomatik olarak "1. " formatında numara ekle.
+                if (trimmed.matches(Regex("^\\d+[.)-].*"))) {
+                    trimmed
+                } else {
+                    "${index + 1}. $trimmed"
+                }
+            }.filter { it.isNotEmpty() }.joinToString("\n\n")
+
             val resultIntent = Intent()
-            resultIntent.putExtra("BIRIKTIRILEN_METIN", biriktirilenMetin.toString())
+            resultIntent.putExtra("BIRIKTIRILEN_METIN", biriktirilenMetin)
             setResult(Activity.RESULT_OK, resultIntent)
             
             // Eğer PDF'den gelmiyorsak (Görselden Ekle modundaysak) doğrudan düzenleme ekranına git
             if (pdfPath == null) {
                 val editIntent = Intent(this, HizliMetinDuzenleActivity::class.java).apply {
-                    putExtra("HAM_METIN", biriktirilenMetin.toString())
+                    putExtra("HAM_METIN", biriktirilenMetin)
                 }
                 startActivity(editIntent)
             }
             finish()
         }
+    }
+
+    private fun updateListVisibility() {
+        if (eklenenSorularListesi.isEmpty()) {
+            rvEklenenSorular.visibility = View.GONE
+            btnBitti.isEnabled = false
+            btnBitti.text = "BİTTİ, DÜZENLEMEYE GEÇ (0)"
+        } else {
+            rvEklenenSorular.visibility = View.VISIBLE
+            btnBitti.isEnabled = true
+            btnBitti.text = "BİTTİ, DÜZENLEMEYE GEÇ (${eklenenSorularListesi.size})"
+            rvEklenenSorular.adapter = AddedQuestionsAdapter(eklenenSorularListesi) { position ->
+                eklenenSorularListesi.removeAt(position)
+                updateListVisibility()
+            }
+            rvEklenenSorular.scrollToPosition(eklenenSorularListesi.size - 1)
+        }
+    }
+
+    private inner class AddedQuestionsAdapter(
+        private val items: List<String>,
+        private val onDelete: (Int) -> Unit
+    ) : RecyclerView.Adapter<AddedQuestionsAdapter.ViewHolder>() {
+
+        inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+            val tvNo: TextView = view.findViewById(R.id.tvSoruNo)
+            val tvOzet: TextView = view.findViewById(R.id.tvSoruOzet)
+            val btnSil: ImageButton = view.findViewById(R.id.btnSil)
+        }
+
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+            val view = LayoutInflater.from(parent.context).inflate(R.layout.item_kucuk_soru, parent, false)
+            // Yatay liste için genişliği sınırlayalım
+            view.layoutParams.width = (parent.width * 0.85).toInt()
+            return ViewHolder(view)
+        }
+
+        override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+            holder.tvNo.text = (position + 1).toString()
+            holder.tvOzet.text = items[position].replace("\n", " ").trim()
+            holder.btnSil.setOnClickListener { onDelete(position) }
+        }
+
+        override fun getItemCount() = items.size
     }
 
     private fun cropAndRecognize() {
@@ -145,7 +211,6 @@ class SoruKirpiciActivity : AppCompatActivity() {
                             
                             val visionText = Tasks.await(recognizer.process(image))
                             
-                            // Eğer ham metin varsa ama satır gruplama başarısız olursa diye yedek al
                             var extracted = visionText.text
 
                             val allLines = visionText.textBlocks.flatMap { it.lines }
@@ -190,9 +255,9 @@ class SoruKirpiciActivity : AppCompatActivity() {
             // SONUÇ: Metni temizle ve ekle
             val processedText = cleanAndFormatText(finalResultText)
             if (processedText.isNotBlank()) {
-                soruSayisi++
-                biriktirilenMetin.append(processedText).append("\n\n")
-                Toast.makeText(this@SoruKirpiciActivity, "$soruSayisi. soru eklendi!", Toast.LENGTH_SHORT).show()
+                eklenenSorularListesi.add(processedText)
+                updateListVisibility()
+                Toast.makeText(this@SoruKirpiciActivity, "${eklenenSorularListesi.size}. soru eklendi!", Toast.LENGTH_SHORT).show()
                 
                 cropImageView.isShowCropOverlay = false
                 btnEkle.text = "SIRADAKİ SORU İÇİN KIRP"
@@ -207,7 +272,6 @@ class SoruKirpiciActivity : AppCompatActivity() {
     }
 
     private fun preprocessBitmap(bitmap: Bitmap): Bitmap {
-        // 1. Kenarlara orta karar boşluk ekleyelim (Padding 40)
         val padding = 40
         val config = Bitmap.Config.ARGB_8888
         val paddedBitmap = Bitmap.createBitmap(bitmap.width + padding * 2, bitmap.height + padding * 2, config)
@@ -215,7 +279,6 @@ class SoruKirpiciActivity : AppCompatActivity() {
         canvasPadded.drawColor(android.graphics.Color.WHITE)
         canvasPadded.drawBitmap(bitmap, padding.toFloat(), padding.toFloat(), null)
 
-        // 2. Resmi 2.5 kat büyütelim (Netlik için ideal oran)
         val matrix = android.graphics.Matrix()
         matrix.postScale(2.5f, 2.5f)
         val scaledBitmap = Bitmap.createBitmap(paddedBitmap, 0, 0, paddedBitmap.width, paddedBitmap.height, matrix, true)
@@ -227,7 +290,6 @@ class SoruKirpiciActivity : AppCompatActivity() {
         val canvas = android.graphics.Canvas(output)
         val paint = android.graphics.Paint()
         
-        // 3. Siyah Beyaz ve Yumuşak Kontrast (Harfleri koparmaz, y'leri v yapmaz)
         val cm = android.graphics.ColorMatrix()
         cm.setSaturation(0f)
         
@@ -249,10 +311,7 @@ class SoruKirpiciActivity : AppCompatActivity() {
 
     private fun cleanAndFormatText(text: String): String {
         var result = text
-            // 1. Tire temizliği (Yabancı karakterleri de kapsayacak şekilde)
             .replace(Regex("([a-zA-ZğüşıöçĞÜŞİÖÇ\\u017D])\\s*-\\s*\n?\\s*([a-zA-ZğüşıöçĞÜŞİÖÇ\\u017D])"), "$1$2")
-            
-            // 2. Karakter ve Kelime Hatalarını Düzelt
             .replace("ä", "a").replace("hä", "ha").replace("hå", "ha").replace("Žrdakilerden", "aşağıdakilerden")
             .replace("Acıl", "Acil").replace("acıl", "acil").replace("(alıştırnlma", "Çalıştırılma").replace("(Guvenlık", "Güvenlik").replace("(Güvenliği", "Güvenliği")
             .replace("uvgun", "uygun").replace("uv gun", "uygun").replace("Avdın", "Aydın").replace("av dın", "aydın").replace("Ay dın", "Aydın")
@@ -283,8 +342,6 @@ class SoruKirpiciActivity : AppCompatActivity() {
             .replace("zaran", "zararı").replace("girişlerınde", "girişlerinde").replace("değışıklığnde", "değişikliğinde")
             .replace("avrılışında", "ayrılışında").replace("donuşlerınde", "dönüşlerinde").replace("etmelern", "etmeleri")
             .replace("avdınlatmayı", "aydınlatmayı").replace("eşvalar", "eşyalar")
-
-            // 3. Kelime Sonu ve Ek Onarıcı
             .replace("yaptırılmalıdırlıdır", "yaptırılmalıdır")
             .replace("yaptırılma", "yaptırılmalıdır").replace("bulundurulmalıdr", "bulundurulmalıdır").replace("çalıştırtlamaz", "çalıştırılamaz").replace("çaliştırılamaz", "çalıştırılamaz").replace("bulunmalıdıu", "bulunmalıdır")
             .replace(Regex("alıdu\\b"), "alıdır").replace("alıdr\\b", "alıdır")
@@ -292,8 +349,6 @@ class SoruKirpiciActivity : AppCompatActivity() {
             .replace(Regex("yapmalIdır\\b"), "yapmalıdır").replace("yapmalıdu\\b", "yapmalıdır")
             .replace("yanlıstr", "yanlıştır").replace("br ", "bir ")
             .replace("ve.", "ve")
-
-            // 4. Satır başı Romen rakamı düzeltmeleri ve Birleşmiş Maddeleri Ayırma
             .replace(Regex("([a-zğüşıöç])\\s+(I+|IV|V|VI|VII|VIII|IX|X)\\b")) { "${it.groupValues[1]}. ${it.groupValues[2]}" }
             .replace(Regex("(?m)^\\s*([L1ilI|!İıV]{1,4})(\\.|\\,|\\-|\\s+|(?=[A-ZÇĞİÖŞÜ]))")) { match ->
                 var raw = match.groupValues[1].uppercase()
@@ -303,11 +358,7 @@ class SoruKirpiciActivity : AppCompatActivity() {
                 if (raw == "IIII") raw = "III"
                 if (raw.startsWith("I") || raw == "IV" || raw == "V") "$raw. " else "$raw. "
             }
-
-            // 5. Şıkların yanındaki yapışık metinleri ayır
             .replace(Regex("([A-E]\\))([\\S])"), "$1 $2")
-            
-            // 6. Bozulmuş Şıkları ve Romen Dizilimlerini Kurtar
             .replace("IIV", "IV").replace("IIII", "III")
             .replace(Regex("\\|\\s*-\\s*Il\\s*-\\s*\\|\\|\\|\\s*-IV"), "I, II, III ve IV")
             .replace(Regex("\\|\\s*-\\s*\\|\\|\\s*–\\|-\\s*IV"), "I, II, III ve IV")
@@ -317,19 +368,13 @@ class SoruKirpiciActivity : AppCompatActivity() {
             .replace("L II", "I, II").replace("e. III", "ve III").replace("e. IV", "ve IV")
             .replace(Regex("L\\.\\s+Il\\s+ve\\s+II"), "I, II ve III")
             .replace(Regex("EL\\|\\|e"), "E) I, II ve IV")
-            .replace(Regex("([I|V]+)\\s*-\\s*([I|V]+)"), "$1, $2") // Romen rakamları arasındaki tireleri virgüle çevir
-            
-            // 7. Metin içindeki Romen rakamlarını standartlaştır
+            .replace(Regex("([I|V]+)\\s*-\\s*([I|V]+)"), "$1, $2") 
             .replace(Regex("(?<=[I|V|X])\\.(?=\\s+[I|V|X])"), ",") 
             .replace(Regex("([I|V|X]{1,5})\\."), "$1")
-            
-            // 8. Kelimeye yapışmış Romen rakamlarını ayır ve I/l hatalarını düzelt
             .replace("lş Kanunu", "İş Kanunu").replace("sayılılş", "sayılı İş").replace("sralaması", "sıralaması")
             .replace(Regex("([a-zğüşıöç])([I|V|X]{1,3})\\b")) { match ->
                 "${match.groupValues[1]} ${match.groupValues[2]}"
             }
-            
-            // 9. Genel Makyaj
             .replace("veva", "veya").replace("mūcadele", "mücadele")
             .replace("Yaln1z", "Yalnız").replace("degil", "değil")
             .replace("İ; ", "İş ").replace("Işe ", "İşe ").replace("İ, Sağlığ", "İş Sağlığ")
@@ -338,11 +383,7 @@ class SoruKirpiciActivity : AppCompatActivity() {
             .replace("oğrencıler", "öğrenciler").replace("geçıcı", "geçici")
             .replace("oncesı", "öncesi").replace("içın", "için")
             .replace("halınde", "halinde")
-            
-            // 10. Seçenekleri yeni satıra al
             .replace(Regex("([A-E]\\))"), "\n$1")
-            
-            // 11. Temizlik
             .replace(Regex(" +"), " ")
             .replace(Regex("\n+"), "\n")
             .trim()
