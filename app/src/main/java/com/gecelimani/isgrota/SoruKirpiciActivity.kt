@@ -191,7 +191,6 @@ class SoruKirpiciActivity : AppCompatActivity() {
             val processedText = cleanAndFormatText(finalResultText)
             if (processedText.isNotBlank()) {
                 soruSayisi++
-                biriktirilenMetin.append("--- SORU $soruSayisi ---\n")
                 biriktirilenMetin.append(processedText).append("\n\n")
                 Toast.makeText(this@SoruKirpiciActivity, "$soruSayisi. soru eklendi!", Toast.LENGTH_SHORT).show()
                 
