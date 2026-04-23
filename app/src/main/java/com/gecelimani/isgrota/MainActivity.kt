@@ -180,7 +180,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun soruyuGoster(index: Int) {
         val soru = soruListesi[index]
-        soruMetni.text = getString(R.string.question_format, index + 1, soru.soruMetni)
+        val formatliSoru = "Soru ${index + 1}:\n${soru.soruMetni}"
+        soruMetni.text = formatliSoru
         tvIlerleme.text = getString(R.string.progress_format, index + 1, soruListesi.size)
         
         // Progress barı güncelle
